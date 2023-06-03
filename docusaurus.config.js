@@ -68,11 +68,30 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'About Me',
+            type: 'doc',
+            docId:'intro',
+            label: 'About me'
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'educationSidebar',
+            position: 'left',
+            label: 'Education',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'projectSidebar',
+            position: 'left',
+            label: 'Projects',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'workexSidebar',
+            position: 'left',
+            label: 'Work Experience',
+          },
+
+
           {
             href: 'https://github.com/karangeorge97/website',
             label: 'GitHub',
