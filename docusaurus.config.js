@@ -8,7 +8,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const config = {
   title: 'Karan George',
   tagline: 'Do good things and good things will happen to you',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/KG.ico',
 
   // Set the production url of your site here
   url: 'https://karangeorge.com',
@@ -59,20 +59,38 @@ const config = {
         respectPrefersColorScheme: false
       },
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Karan George',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/KG.jpg',
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'About Me',
+            type: 'doc',
+            docId:'intro',
+            label: 'About me'
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'educationSidebar',
+            position: 'left',
+            label: 'Education',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'projectSidebar',
+            position: 'left',
+            label: 'Projects',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'workexSidebar',
+            position: 'left',
+            label: 'Work Experience',
+          },
+
+
           {
             href: 'https://github.com/karangeorge97/website',
             label: 'GitHub',
