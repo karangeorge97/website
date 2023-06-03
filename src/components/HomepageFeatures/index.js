@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Motorcyclist',
+      Svg: require('@site/static/img/motorcyle.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        An avid motorcyclist and have toured most states in south India. There is nothing I enjoy more than riding in a group and talking about motorcycles
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
+    title: 'Developer',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       A seasoned developer in the FinTech Industry, I have worked as an associate at JP Morgan chase & Co for 3 years. At JP I worked on the firms Intraday Liquidity tool and was the lead developer on the Watchtower project
+      </>
+    ),
+  },
+  {
+    title: 'Technology for social good',
+    Svg: require('@site/static/img/TFG.svg').default,
+    description: (
+      <>
+       A strong believer in technology for social good. I have worked on multiple projects with the goal of empowering people's lives using technology.
       </>
     ),
   },
