@@ -1,57 +1,33 @@
----
-sidebar_position: 2
----
-
 # ReLive
+ReLive is a photo-sharing platform that allows users to filter shared albums by the contributor. Built as a part of a UI Design project ReLive has been through all stages of product development including ideation, user research, and prototyping.
+*Link to code [Github](https://github.com/karangeorge97/ReLive-Onedroid)*
 
-Documents are **groups of pages** connected through:
+## Ideation
 
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
+Ideation is the process of generating and developing new ideas, concepts, or solutions. It involves brainstorming, exploring possibilities, and fostering creativity. The goal of ideation is to generate a wide range of ideas without judgment, allowing for innovative and unconventional thinking.
 
-## Create your first Doc
+## User Research
 
-Create a Markdown file at `docs/hello.md`:
+User research is a systematic approach to understanding user needs, behaviors, and preferences. It involves gathering qualitative and quantitative data through methods like interviews, surveys, and observations. By empathizing with users and gaining insights into their motivations and pain points, user research informs the design and development of user-centered solutions.
 
-```md title="docs/hello.md"
-# Hello
+[User Research](https://docs.google.com/presentation/d/1Z9f0CXmXnkk6TU_vW2tJc4Ma8bSf4pyqav9a6rC4z5s/edit?usp=sharing)
+## Prototyping
 
-This is my **first Docusaurus document**!
-```
+Prototyping is the creation of a preliminary version or representation of a product, system, or feature. It allows designers and developers to visualize and test their ideas before investing significant time and resources. Prototypes can be low-fidelity, such as sketches or wireframes, or high-fidelity, resembling the final product. They enable iterative refinement and valuable user feedback.
+We used balsamiq for prototyping
 
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
+[Low Fidelity Prototyping](https://docs.google.com/presentation/d/1wpg3pLE74FL6gjEwSHfPSXeL7H-2Ze9U4T-c3CNxYhw/edit?usp=share_link)
+[High Fidelity Prototyping](https://docs.google.com/presentation/d/1wpg3pLE74FL6gjEwSHfPSXeL7H-2Ze9U4T-c3CNxYhw/edit?usp=share_link)
+[Balsamiq wireframe](https://docs.google.com/presentation/d/1wpg3pLE74FL6gjEwSHfPSXeL7H-2Ze9U4T-c3CNxYhw/edit?usp=share_link)
 
-## Configure the Sidebar
+## Implementation
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
+Implementation is the stage where ideas and designs are translated into functional solutions. It involves writing code, creating databases, integrating components, and developing the necessary infrastructure. Implementation often follows an iterative development process, where features are incrementally added, tested, and refined. It is a critical step towards delivering a fully functional and user-friendly product.
+We used android studio to bring our final prototype to life and conducted user interviews to better the UI
 
-Add metadata to customize the sidebar label and position:
+Link to code [Github](https://github.com/karangeorge97/ReLive-Onedroid)*
 
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: 'Hi!'
-sidebar_position: 3
----
+[User interviews](https://docs.google.com/presentation/d/1wpg3pLE74FL6gjEwSHfPSXeL7H-2Ze9U4T-c3CNxYhw/edit?usp=share_link)
 
-# Hello
 
-This is my **first Docusaurus document**!
-```
 
-It is also possible to create your sidebar explicitly in `sidebars.js`:
-
-```js title="sidebars.js"
-module.exports = {
-  tutorialSidebar: [
-    'intro',
-    // highlight-next-line
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-};
-```
