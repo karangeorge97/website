@@ -1,57 +1,28 @@
----
-sidebar_position: 2
----
-
 # MSRIT
 
-Documents are **groups of pages** connected through:
+I completed my Bachelor's in Computer Science at the M.S. Ramaiah Institute of Technology (MSRIT). My time at MSRIT provided me with a strong foundation in computer science and a platform to explore my passions.
 
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
+## Coursework at MSRIT
 
-## Create your first Doc
+As a computer science student at MSRIT, I had the opportunity to study a variety of subjects that formed the core of my undergraduate education. Here are some of the general subjects I covered:
 
-Create a Markdown file at `docs/hello.md`:
+| Subject                     | Description                                               |
+| --------------------------- | --------------------------------------------------------- |
+| Programming Languages       | Introduction to programming languages like C, C++, Java   |
+| Data Structures and Algorithms | Fundamental data structures and algorithmic concepts     |
+| Computer Networks           | Understanding network protocols and network architecture  |
+| Database Management Systems | Designing and managing relational databases                |
+| Operating Systems           | Concepts of operating systems and their components         |
+| Software Engineering        | Principles and practices of software development           |
+| Web Technologies            | Development of web applications using HTML, CSS, and JS   |
+| Artificial Intelligence    | Introduction to AI concepts and techniques                |
+| Software Testing            | Techniques for testing software to ensure quality         |
 
-```md title="docs/hello.md"
-# Hello
+## Exploring Passions
 
-This is my **first Docusaurus document**!
-```
+During my undergraduate studies, I used the freedom and resources available at MSRIT to explore various areas of computer science and find my true calling. I actively participated in extracurricular activities, joined tech clubs, and engaged in projects that allowed me to apply my skills in real-world scenarios.
 
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
+It was during this time that I discovered my passion for using technology for social good. Through my involvement in projects aimed at creating positive social impact, I realized the immense potential of technology to address social challenges and make a difference in people's lives.
 
-## Configure the Sidebar
+This realization shaped my future aspirations and led me to pursue further education in computer science with a focus on leveraging technology for social good.
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
-
-Add metadata to customize the sidebar label and position:
-
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: 'Hi!'
-sidebar_position: 3
----
-
-# Hello
-
-This is my **first Docusaurus document**!
-```
-
-It is also possible to create your sidebar explicitly in `sidebars.js`:
-
-```js title="sidebars.js"
-module.exports = {
-  tutorialSidebar: [
-    'intro',
-    // highlight-next-line
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-};
-```

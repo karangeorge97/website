@@ -1,57 +1,12 @@
----
-sidebar_position: 2
----
-
 # Friendly Chat
+An application to monitor the use of abusive and vulgar language on chats on social media networks to prevent users from being obscene can play a part in modifying the way users interact with each other. “Friendly chat” is a play on a group chatting application, users can discuss a range of topics that is completely unrestricted. When things start heating up a user may become abusive towards other users, at times like this the application will quickly diffuse the situation by deploying preventive measures, stopping the abusive user in his tracks.
 
-Documents are **groups of pages** connected through:
+## System Architecture
+![sysarch](../../static/img/sysarch.png)
+## Data flow diagram
+![dataflow](../../static/img/dataflow.png)
 
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
-
-## Create your first Doc
-
-Create a Markdown file at `docs/hello.md`:
-
-```md title="docs/hello.md"
-# Hello
-
-This is my **first Docusaurus document**!
-```
-
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
-
-## Configure the Sidebar
-
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
-
-Add metadata to customize the sidebar label and position:
-
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: 'Hi!'
-sidebar_position: 3
----
-
-# Hello
-
-This is my **first Docusaurus document**!
-```
-
-It is also possible to create your sidebar explicitly in `sidebars.js`:
-
-```js title="sidebars.js"
-module.exports = {
-  tutorialSidebar: [
-    'intro',
-    // highlight-next-line
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-};
-```
+## ML Algorithms used 
+- Naive bayes model
+- LSTM
+- Binary relevance and chain classifiers
