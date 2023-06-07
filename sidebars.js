@@ -23,7 +23,7 @@ const sidebars = {
     ['projects/assitiveapp','projects/footballfrenzy','projects/relive','projects/balutsav','projects/friendlyChat'],
   ],
   workexSidebar:[
-    ['workexperience/cme','workexperience/jpmc','workexperience/bridgei2i'],
+    ['workexperience/cme','workexperience/jpmc'],
   ],
 
 
